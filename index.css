@@ -1,0 +1,33 @@
+  #image {
+     width: 100%;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     height: auto;
+     max-width: 625px; 
+  }
+
+  h1 {
+ text-align: center;
+   }
+
+  span#minor { 
+   font-size: 20px;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(500px, ifr));
+   gap: 10px;
+}
+
+#img-caption p{
+   text-align: center;
+} 
+
+
+ul {
+   text-align: justify;
+   font-size: x-large;
+   font-family: 'Times New Roman', Times, serif;
+}
